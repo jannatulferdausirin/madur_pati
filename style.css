@@ -1,0 +1,42 @@
+/* common css start here */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* main css start here */
+.main_container h1 {
+  text-align: center;
+  color: rgb(162, 77, 46);
+  margin: 20px;
+  padding: 10px;
+}
+.container {
+  background-color: rgb(239, 178, 55);
+  height: 615px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* vertical css start */
+.a {
+  background-color: rgb(130, 92, 42);
+  height: 610px;
+  width: 20px;
+  float: left;
+  margin: 0px 5px 0px;
+}
+/* horizontal css start here */
+.b {
+  background-color: rgb(209, 125, 15);
+  height: 19px;
+  width: 800px;
+  float: left;
+  margin: 6px;
+}
+.horizontal {
+  position: relative;
+  z-index: 1;
+}
+.vertical {
+  position: absolute;
+}
